@@ -229,3 +229,22 @@ body {
   z-index: 3;
   cursor: pointer;
 }
+
+/* Media Queries */
+@media screen and (max-height: 1000px) {
+  .six .hat {
+    left: 40%;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .six .hat {
+    left: 37%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .six .hat {
+    left: 34%;
+  }
+}

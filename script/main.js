@@ -169,14 +169,13 @@ tl
     2.5,
     {
       opacity: 0.9,
-      y: 1000
+      y: 1400
     },
     {
       opacity: 1,
       y: -1000
     },
-    0.2,
-    "currentStep"
+    0.2
   )
   .from(
     ".lydia-dp",
@@ -190,12 +189,17 @@ tl
     },
     "-=2"
   )
-  .from(".hat", 0.5, {
-    x: -100,
-    y: 350,
-    rotation: -180,
-    opacity: 0
-  })
+  .from(
+    ".hat",
+    0.5,
+    {
+      x: -100,
+      y: 350,
+      rotation: -180,
+      opacity: 0
+    },
+    "currentStep"
+  )
   .staggerFrom(
     ".wish-hbd span",
     0.7,
