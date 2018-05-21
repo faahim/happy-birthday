@@ -266,7 +266,7 @@ tl
     "+=1"
   );
 
-tl.seek("currentStep");
+// tl.seek("currentStep");
 
 // Restart on click
 const replyBtn = document.getElementById("replay");
