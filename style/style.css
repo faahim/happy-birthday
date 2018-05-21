@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
@@ -281,6 +282,14 @@ body {
   .six .hat {
     width: 50px;
     top: -20px;
+  }
+
+  .wish-hbd {
+    font-size: 2.2em;
+  }
+
+  .wish h5 {
+    font-size: 1.4rem;
   }
 
   .nine p {
