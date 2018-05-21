@@ -43,6 +43,8 @@ body {
 .one > img {
   vertical-align: middle;
   margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .two {
@@ -115,6 +117,8 @@ body {
 
 .six img {
   display: inline-block;
+  max-width: 100%;
+  height: auto;
 }
 
 .six .hat {
@@ -240,11 +244,47 @@ body {
   }
 }
 
-@media screen and (max-height: 600px) {
-  .container {
-    width: 95%;
-  }
+@media screen and (max-height: 700px) {
   .six .hat {
-    left: 34%;
+    left: 32%;
+  }
+}
+
+@media screen and (max-height: 850px) and (max-width: 450px) {
+  .six .hat {
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -38px;
+  }
+
+  .idea-5 span {
+    display: block;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six .hat {
+    width: 50px;
+    top: -20px;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+    font-weight: lighter;
   }
 }
