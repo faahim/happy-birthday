@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #fcfcfc;
 }
 
 .container {
@@ -18,7 +19,20 @@ body {
   overflow: hidden;
 }
 
-.container div {
+.container div.six {
+  top: 10vh;
+  z-index: 1;
+}
+
+.container div.seven,
+.container div.eight {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.container > div {
   position: absolute;
   left: 0;
   right: 0;
@@ -32,6 +46,11 @@ body {
 .one > img {
   vertical-align: middle;
   margin-bottom: 10px;
+}
+
+.two {
+  font-size: 1rem;
+  font-weight: lighter;
 }
 
 .three {
@@ -84,7 +103,8 @@ body {
 }
 
 .idea-5 span,
-.idea-6 span {
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
@@ -104,16 +124,8 @@ body {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 260px;
+  left: 41.5%;
   /* transform: scale(0.1); */
-}
-
-.container div.seven,
-.container div.eight {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
 }
 
 .baloons img {
@@ -134,10 +146,12 @@ body {
 }
 
 .eight svg {
-  width: 15px;
+  width: 25px;
   position: absolute;
   top: 0;
   left: 0;
+  visibility: hidden;
+  z-index: -1;
 }
 
 .eight svg:nth-child(1) {
@@ -179,17 +193,39 @@ body {
 .eight svg:nth-child(7) {
   top: 68vh;
   left: 83vw;
-  fill: #8762cb;
+  fill: #e3bae8;
 }
 
 .eight svg:nth-child(8) {
   top: 86vh;
   left: 37vw;
-  fill: #e3bae8;
+  fill: #8762cb;
 }
 
 .eight svg:nth-child(9) {
   top: 94vh;
   left: 87vw;
   fill: #9a90da;
+}
+
+.wish-hbd {
+  font-size: 3em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.wish h5 {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 10px 0 0;
+}
+
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+#replay {
+  z-index: 3;
+  cursor: pointer;
 }
