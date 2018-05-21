@@ -162,14 +162,25 @@ tl
     0.2,
     "+=1"
   )
+  .staggerFromTo(
+    ".baloons img",
+    2.5,
+    {
+      opacity: 0.9,
+      y: 1000
+    },
+    {
+      opacity: 1,
+      y: -1000
+    },
+    0.2
+  )
   .from(".lydia-dp", 0.5, {
     scale: 3.5,
     opacity: 0,
     x: 25,
     y: -25,
-    rotationZ: -45,
-    boxShadow: "0px 0px 20px 20px red"
-    // transformPerspective: 500
+    rotationZ: -45
   })
   .from(".hat", 0.5, {
     x: -100,
