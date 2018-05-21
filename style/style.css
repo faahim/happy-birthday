@@ -4,15 +4,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #fcfcfc;
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
   height: 100vh;
   width: 100vh;
-  /* background-color: #f1f1f1; */
+  margin: 0 auto;
   text-align: center;
   visibility: hidden;
   position: relative;
@@ -244,6 +241,9 @@ body {
 }
 
 @media screen and (max-height: 600px) {
+  .container {
+    width: 95%;
+  }
   .six .hat {
     left: 34%;
   }
