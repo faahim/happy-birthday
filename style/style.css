@@ -115,9 +115,11 @@ body {
 .six {
   position: relative;
 }
-.lydia-dp{
+
+.lydia-dp {
   width: 40%;
 }
+
 .six img {
   display: inline-block;
   max-width: 100%;
