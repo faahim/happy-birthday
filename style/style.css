@@ -116,16 +116,14 @@ body {
   position: relative;
 }
 
-.lydia-dp {
-  width: 40%;
-}
-
 .six img {
   display: inline-block;
   max-width: 100%;
   height: auto;
 }
-
+.lydia-dp {
+  width: 40%;
+}
 .six .hat {
   position: absolute;
   width: 80px;
