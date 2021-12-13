@@ -4,22 +4,30 @@
 
 #### [See it Live](https://faahim.github.io/happy-birthday/)
 
-It was a birthday of one of my friend and I wanted to wish her in a special way. So I put together this animated web page real quick to say Happy Birthday.
+#### Update: Now you can customize all the texts without modifying the code!
 
-Feel free to use it to wish your friend if you want.
-You can get it running in a few easy steps:
+On the birthday of a special friend, I felt like the generic happy birthday text just wasn't gonna cut it for me. So I put together this animated web page at the last minute to wish them Happy Birthday.
+
+I decided to publish it so that you can use it to make the special people in your life feel a bit more of what they truly are: special.
+You can create your very own happy-birthday page in a few easy steps:
 
 * Fork the repository
-* Open `customize.json` and replace name/wish-message/image with your own
-* Turn on GitHub pages for the repository (Settings > GitHub Pages)
-* Send the URL that you get at the above step to your friend
+* Open `customize.json` and replace the content with your own
+* Turn on GitHub pages for your repository (Settings > Pages)
+* Share the URL you get at the above step with your friend
 
-I've created the JSON file for easy and quick customizability. If you want to do more customizing, simply edit the HTML file. But in that case, leave the JSON fields empty since it overwrites the HTML. Please note that I've created this page in a hurry and it comes with no warranty, so check yourself before sending it to your friend.
+**You do not need to create Pull Request to this main repository to get it running.**
 
-I've used plain HTML, CSS and JavaScript with [GSAP](https://greensock.com/gsap) for animations.
+I've created the JSON file (`customize.json`) for easy and quick customizability. It allows you the change all of the texts and the image used on the webpage without modifying the code. However, If you want to customize it further, leave the JSON fields empty and edit the HTML file directly. This is because the content in the JSON file overwrites the HTML.
+
+Please note that I've created this page in a hurry and it comes with no warranty.
+
+Feel free to [get in touch with me](mailto:afiur.fahim@gmail.com) if you need any help with it. You can [find me on Twitter](https://twitter.com/faahim01) as well. :)
+
 
 ## Contributing
 
-If you have any idea to make it more interesting, feel free to send a PR, or create an issue for a feature request.
+I've used plain HTML, CSS and JavaScript with [GSAP](https://greensock.com/gsap) for animations.
+If you have any idea to improve it or make it more interesting, feel free to send a PR, or create an issue for a feature request.
 
-Stay happy and keep the people you care about happy. :)
+Happy wishing! 🎉
