@@ -1,7 +1,7 @@
 {
   "greeting": "Hi",
   "name": "唐瑶",
-  "greetingText": "还好没有错过今晚1",
+  "greetingText": "还好没有错过今晚",
   "wishText": "唐瑶，生日快乐！",
   "imagePath": "img/tangyao.jpg",
   "text1": "很抱歉以这种理工直男的方式给你庆生",
@@ -13,7 +13,7 @@
   "text5": "但还是没想出来花里胡哨的",
   "text4Adjective": "台词",
   "text5Entry": "所以，",
-  "text5Content": "希望你永远健康，永远可爱，也永远被爱",
+  "text5Content": "希望你永远健康，永远可爱，  也永远被爱",
   "smiley": ":)",
   "bigTextPart1": "最",
   "bigTextPart2": "后",
