@@ -1,4 +1,4 @@
-const _name = parseRot13(_PARAMS.get("name") || "Kamu");
+const _name = parseRot13(_PARAMS.get("name") || "Xnzh");
 document
   .querySelectorAll('[data-node-name="name"]')
   .forEach((el) => (el.textContent = _name));

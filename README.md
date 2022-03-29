@@ -1,10 +1,10 @@
-## Happy Birthday!!!
+# Happy Birthday!!!
 
-### Wish someone special happy birthday in a special way.
+## Wish someone special happy birthday in a special way.
 
-#### [See it Live](https://faahim.github.io/happy-birthday/)
+#### [See it Live](https://fauzan-radji.github.io/happy-birthday/?name=snhmna)
 
-#### Update: Now you can customize all the texts without modifying the code!
+### Update: Now you can customize all the texts without modifying the code!
 
 On the birthday of a special friend, I felt like the generic happy birthday text just wasn't gonna cut it for me. So I put together this animated web page at the last minute to wish them Happy Birthday.
 
@@ -19,6 +19,10 @@ You can create your very own happy-birthday page in a few easy steps:
 **You do not need to create Pull Request to this main repository to get it running.**
 
 I've created the JSON file (`customize.json`) for easy and quick customizability. It allows you the change all of the texts and the image used on the webpage without modifying the code. However, If you want to customize it further, leave the JSON fields empty and edit the HTML file directly. This is because the content in the JSON file overwrites the HTML.
+
+### Update: Now you can customize the name simply by passing the [ROT13](https://en.wikipedia.org/wiki/ROT13) encryption result directly as a GET Parameter in the url!
+
+Example: ```wbua qbr``` will be changed to ```john doe```
 
 Please note that I've created this page in a hurry and it comes with no warranty.
 
