@@ -1,15 +1,20 @@
 const _name = parseRot13(_PARAMS.get("name") || "Xnzh");
+const _lang = _PARAMS.get("lang") || "en";
 document
   .querySelectorAll('[data-node-name="name"]')
   .forEach((el) => (el.textContent = _name));
 
+const audioElement = document.getElementById("audio");
+const overlayElement = document.getElementById("overlay");
+
 // Import the data to customize and insert them into page
 const fetchData = () => {
-  fetch("customize.json")
+  return fetch("text/customize.json")
     .then((data) => data.json())
     .then((data) => {
-      dataArr = Object.keys(data);
-      dataArr.map((customData) => {
+      data = data[_lang == "en" ? 1 : 0].text;
+      for (customData in data) {
+        console.log(customData);
         if (data[customData] !== "") {
           if (customData === "imagePath") {
             document
@@ -21,8 +26,7 @@ const fetchData = () => {
             ).innerText = data[customData];
           }
         }
-      });
-      animationTimeline();
+      }
     });
 };
 
@@ -304,4 +308,12 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
-fetchData();
+(async () => {
+  await fetchData();
+
+  overlayElement.onclick = () => {
+    overlayElement.classList.add("hidden");
+    audioElement.play();
+    animationTimeline();
+  };
+})();

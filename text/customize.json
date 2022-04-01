@@ -1,0 +1,52 @@
+[
+  {
+    "lang": "id",
+    "text": {
+      "overlayText": "Klik dulu buat buka",
+      "greeting": "Hai",
+      "greetingText": "Aku suka namamu, btw!",
+      "wishText": "Semoga semua harapanmu tercapai. Sukses selalu.",
+      "text1": "Hari ini ultahmu kan yak!!! :D",
+      "textInChatBox": "Selamat Ulang Tahun!! Yeee! sukses selalu blah blah...",
+      "sendButtonLabel": "Kirim",
+      "text2": "Itu yang sebenarnya mau aku lakuin.",
+      "text3": "Tapi ga aku lanjutin.",
+      "text4": "Aku sadar, Aku harus melakukan sesuatu yang",
+      "text4Adjective": "spesial",
+      "text5Entry": "Karna,",
+      "text5Content": "Kamu itu Spesial",
+      "smiley": ":)",
+      "bigTextPart1": "Ja",
+      "bigTextPart2": "di",
+      "wishHeading": "Happy Birthday!",
+      "outroText": "Dah gitu aja. Sekarang bilang sama aku kalo kamu suka ini atau tidak.",
+      "replayText": "Atau klik, kalo mau liat ini lagi.",
+      "outroSmiley": ":)"
+    }
+  },
+  {
+    "lang": "en",
+    "text": {
+      "overlayText": "Click to open",
+      "greeting": "Hi",
+      "greetingText": "I really like your name btw!",
+      "wishText": "Hope all your wishes come true. The older I get, the more I realize that I am still a little younger than you.",
+      "text1": "It's your birthday!!! :D",
+      "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
+      "sendButtonLabel": "Send",
+      "text2": "That's what I was going to do.",
+      "text3": "But then I stopped.",
+      "text4": "I realized, I wanted to do something",
+      "text4Adjective": "special",
+      "text5Entry": "Because,",
+      "text5Content": "You are Special",
+      "smiley": ":)",
+      "bigTextPart1": "S",
+      "bigTextPart2": "O",
+      "wishHeading": "Happy Birthday!",
+      "outroText": "Okay, now come back and tell me if you liked it.",
+      "replayText": "Or click, if you want to watch it again.",
+      "outroSmiley": ":)"
+    }
+  }
+]
