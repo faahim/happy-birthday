@@ -1,6 +1,6 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
+  "greeting": "Hi Mrs Zhang",
+  "name": "anyu",
   "greetingText": "I really like your name btw!",
   "wishText": "May the js.prototypes always be with you! ;)",
   "imagePath": "img/lydia2.png",
@@ -16,7 +16,7 @@
   "smiley": ":)",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "wishHeading": "Happy Birthday!",
+  "wishHeading": "Happy Birthday! Have a Goodday！",
   "outroText": "Okay, now come back and tell me if you liked it.",
   "replayText": "Or click, if you want to watch it again.",
   "outroSmiley": ":)"
