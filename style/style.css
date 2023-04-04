@@ -231,6 +231,12 @@ body {
   z-index: 3;
   cursor: pointer;
 }
+.clicks{
+color:#0000FF;
+}
+.clicks:hover{
+color:#00008B;
+}
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
