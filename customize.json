@@ -1,10 +1,10 @@
 {
   "greeting": "Hello lovely",
-  "name": "Alex!",
-  "greetingText": "It's 19th of April huh what a special date, isn't it?",
+  "name": "Alex! ❤️",
+  "greetingText": "It's 19th of April... what a special date, isn't it?",
   "wishText": "Keep shining and flying like you do, even the sky is not the limit for you!",
   "imagePath": "img/alex.png",
-  "text1": "It's your birthday!!!",
+  "text1": "It's your birthday!!! 🥳🎈",
   "textInChatBox": "Happy birthday to you beautiful Alex!! I wish you the best...",
   "sendButtonLabel": "Send",
   "text2": "That's what I was going to do.",
@@ -17,7 +17,7 @@
   "bigTextPart1": "S",
   "bigTextPart2": "O",
   "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
+  "outroText": "Enjoy every single moment of this year that's coming, you deserve it.",
   "replayText": "Or click, if you want to watch it again.",
   "outroSmiley": ":)"
 }
