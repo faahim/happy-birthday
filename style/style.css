@@ -38,7 +38,7 @@ body {
 }
 
 .one {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 .one > img {
@@ -118,13 +118,13 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
 .six .hat {
   position: absolute;
-  width: 80px;
+  width: 70px;
   top: -35px;
   left: 41.5%;
   /* transform: scale(0.1); */
@@ -280,8 +280,8 @@ body {
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 70px;
+    top: -60px;
   }
 
   .wish-hbd {
