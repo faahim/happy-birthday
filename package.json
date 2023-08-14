@@ -28,5 +28,7 @@
     "url": "https://github.com/faahim/happy-birthday/issues"
   },
   "homepage": "https://github.com/faahim/happy-birthday#readme",
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }

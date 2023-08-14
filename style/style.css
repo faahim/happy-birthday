@@ -80,7 +80,7 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: rgb(21, 161, 237);
+  background-color: #ff6a9d;
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -118,9 +118,12 @@ body {
 
 .six img {
   display: inline-block;
-  width: 50%;
+  max-width: 80%;
   height: auto;
-  border-radius: 3%;
+}
+
+.lydia-dp {
+  border-radius: 5%;
 }
 
 .six .hat {
@@ -236,26 +239,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 44%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 44%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 40%;
-    top: -13%;
+    left: 44%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 64%;
+    left: 44%;
   }
 }
 
@@ -283,7 +285,7 @@ body {
 
   .six .hat {
     width: 50px;
-    top: -45%;
+    top: -18px;
   }
 
   .wish-hbd {
