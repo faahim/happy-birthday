@@ -123,7 +123,7 @@ body {
 }
 
 .lydia-dp {
-  border-radius: 5%;
+  border-radius: 5% !important;
 }
 
 .six .hat {
