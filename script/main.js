@@ -1,4 +1,7 @@
 // Import the data to customize and insert them into page
+
+// Set up the audio element
+
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())

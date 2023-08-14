@@ -12,10 +12,14 @@
 </head>
 
 <body>
+  <div id="audio-permission" style="display: none;">
+    <p>This website contains audio that will play automatically. Click OK to start.</p>
+  </div>
+  <audio id="background-music" controls style="width: 0; height: 0;">
+    <source src="./sound/hbd.mp3" type="audio/mpeg">
+    Please update your browser does not support the audio element.
+  </audio>
   <div class="container">
-    <audio autoplay>
-      <source src="./sound/prd.mp3" type="audio/mp3" />
-    </audio>  
     <div class="one">
       <h1 class="one">
         <span data-node-name="greeting">Hey</span>
@@ -130,6 +134,37 @@
     </div>
   </div>
 </body>
+
+<script>
+//   document.addEventListener("DOMContentLoaded", function () {
+//   const audioPermission = document.getElementById("audio-permission");
+//   const backgroundMusic = document.getElementById("background-music");
+
+//   const r = confirm("Would You Like To AutoPlay Music?");
+//   if (r) {
+//     audioPermission.style.display = "none"; // Hide the permission message
+//     backgroundMusic.style.display = "block"; // Show the audio element
+//     backgroundMusic.play(); // Start playing audio
+//   } else {
+//     audioPermission.style.display = "block"; // Show the permission message
+//   }
+// });
+
+function autoplay(){
+  var r = confirm("Would You Like To AutoPlay Music?");
+  if (r == true || r === true) {
+    const music = document.getElementById("background-music");
+    document.addEventListener("click", () => {
+    music.play().catch(error => {
+      console.log("Autoplay blocked. User interaction required.");
+    });
+  });
+  }
+}
+
+autoplay();
+
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script type="application/javascript" src="script/main.js"></script>
