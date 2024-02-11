@@ -58,8 +58,8 @@ body {
 }
 
 .four .text-box {
-  width: 1000px;
-  margin: 0 auto;
+  width: 600px;
+  margin: 5 auto;
   border: 3px solid #aaa;
   border-radius: 5px;
   padding: 10px;
