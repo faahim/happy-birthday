@@ -1,9 +1,9 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
-  "greetingText": "I really like your name btw!",
+  "greeting": "hello",
+  "name": "Dad",
+  "greetingText": " i remember something...",
   "wishText": "May the js.prototypes always be with you! ;)",
-  "imagePath": "img/lydia2.png",
+
   "text1": "It's your birthday!!! :D",
   "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
   "sendButtonLabel": "Send",
@@ -17,7 +17,7 @@
   "bigTextPart1": "S",
   "bigTextPart2": "O",
   "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
+  "outroText": "Thank ypu for all that you do for me ",
+  "replayText": "i love you sooo much<3",
   "outroSmiley": ":)"
 }
