@@ -209,7 +209,7 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
+      ".dp",
       0.5,
       {
         scale: 3.5,
@@ -294,6 +294,31 @@ const animationTimeline = () => {
 
   // tl.seek("currentStep");
   // tl.timeScale(2);
+
+  // Show animation controls
+  // const controls = document.createElement("div");
+  // controls.classList.add("controls");
+  // controls.innerHTML = `<button id="pause">⏸︎</button><button id="resume">▶︎</button><button id="replay">⏮︎</button>`
+  // document.body.appendChild(controls);
+
+  // // Pause Animation on click
+  // const pauseBtn = document.getElementById("pause");
+  // pauseBtn.addEventListener("click", () => {
+  //   tl.pause();
+  // });
+
+  // // Resume Animation on click
+  // const resumeBtn = document.getElementById("resume");
+  // resumeBtn.addEventListener("click", () => {
+  //   tl.resume();
+  // });
+
+  // // Restart Animation on click
+  // const restartBtn = document.getElementById("replay");
+  // restartBtn.addEventListener("click", () => {
+  //   tl.restart();
+  // });
+
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
