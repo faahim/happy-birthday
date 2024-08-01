@@ -16,9 +16,9 @@ body {
   visibility: hidden;
   position: relative;
   overflow: hidden;
-  color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(
+  
+    
+    text: linear-gradient(
       90deg,
       #2ca2b4,
       #5598de 24%,
