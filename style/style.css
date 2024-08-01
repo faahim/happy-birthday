@@ -16,6 +16,15 @@ body {
   visibility: hidden;
   position: relative;
   overflow: hidden;
+  color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+      90deg,
+      #2ca2b4,
+      #5598de 24%,
+      #7f87ff 45%,
+      #f65aad 76%,
+      #ec3d43
 }
 
 .container div.six {
