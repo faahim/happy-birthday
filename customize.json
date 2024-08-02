@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
     "greeting": "Heyy",
     "name": "Shubhi",
     "greetingText": "I really like your name btw!",
@@ -22,7 +22,7 @@
     "replayText": "Or refresh, if you want to watch it again.",
     "outroSmiley": ":)"
 }
-=======
+
   "greeting": "Heyy",
   "name": "Shubhi",
   "greetingText": "I really like your name btw!",
@@ -45,4 +45,3 @@
   "replayText": "Or click, if you want to watch it again.",
   "outroSmiley": ":)"
 }
->>>>>>> 5751d95f09d21ce80cffa435d856d2fbf91e1621
