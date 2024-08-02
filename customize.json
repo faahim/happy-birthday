@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "greeting": "Heyy",
     "name": "Shubhi",
     "greetingText": "I really like your name btw!",
@@ -22,27 +21,3 @@
     "replayText": "Or refresh, if you want to watch it again.",
     "outroSmiley": ":)"
 }
-=======
-  "greeting": "Heyy",
-  "name": "Shubhi",
-  "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
-  "imagePath": "img/__shubhiiiiiii_14030506_102049697.jpg",
-  "text1": "It's your birthday!!! :D",
-  "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
-  "sendButtonLabel": "Send",
-  "text2": "That's what I was going to do.",
-  "text3": "But then I stopped.",
-  "text4": "I realised, I wanted to do something",
-  "text4Adjective": "special",
-  "text5Entry": "Because,",
-  "text5Content": "You are Special! haha",
-  "smiley": ":)",
-  "bigTextPart1": "S",
-  "bigTextPart2": "O",
-  "wishHeading": "Happy Birthdaysssssssssss!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
-  "outroSmiley": ":)"
-}
->>>>>>> 5751d95f09d21ce80cffa435d856d2fbf91e1621
