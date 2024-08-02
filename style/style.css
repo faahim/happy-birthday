@@ -5,8 +5,12 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+<<<<<<< HEAD
   background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*nOG7TYG49wdHRWdD");
 
+=======
+  background-image: url("https://images.pexels.com/photos/3006340/pexels-photo-3006340.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+>>>>>>> 5751d95f09d21ce80cffa435d856d2fbf91e1621
 }
 
 .container {
@@ -17,6 +21,15 @@ body {
   visibility: hidden;
   position: relative;
   overflow: hidden;
+  
+    
+    text: linear-gradient(
+      90deg,
+      #2ca2b4,
+      #5598de 24%,
+      #7f87ff 45%,
+      #f65aad 76%,
+      #ec3d43
 }
 
 .container div.six {
@@ -301,5 +314,5 @@ body {
 }
 
 .lydia-dp{
-  height:80vh
+  height:60vh
 }
