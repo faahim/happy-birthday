@@ -1,8 +1,8 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
+  "greeting": "Ni Hao",
+  "name": "Pema Tashi Norbu",
   "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
+  "wishText": "May you always be with people you enjoy! ;)",
   "imagePath": "img/lydia2.png",
   "text1": "It's your birthday!!! :D",
   "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
@@ -17,7 +17,7 @@
   "bigTextPart1": "S",
   "bigTextPart2": "O",
   "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
+  "outroText": "You seems sad recently it's okay to feel sad sometimes; it's a part of being human. I know it might seem like the sadness never ends, but please remember that you're stronger than you realize. Be kind to yourself, and remember to reach out whenever you need me but if problem is the money- BYE.",
   "replayText": "Or click, if you want to watch it again.",
   "outroSmiley": ":)"
 }
