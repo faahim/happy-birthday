@@ -30,4 +30,4 @@ Feel free to [get in touch with me](mailto:afiur.fahim@gmail.com) if you need an
 I've used plain HTML, CSS and JavaScript with [GSAP](https://greensock.com/gsap) for animations.
 If you have any idea to improve it or make it more interesting, feel free to send a PR, or create an issue for a feature request.
 
-Happy wishing! 🎉
+https://github.com/Kito-dot/happybirthday.git
