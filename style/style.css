@@ -134,10 +134,10 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -50px;
-  left: 45.5%;
-  /* transform: scale(0.1); */
+  width: 100px;
+  top: -60px;
+  left: 38%;
+  transform: rotate(-25deg);
 }
 
 .baloons img {
@@ -243,29 +243,29 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
+/* @media screen and (max-height: 1000px) {
   .six .hat {
     left: 45%;
   }
-}
+} */
 
-@media screen and (max-height: 800px) {
+/* @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
   }
-}
+} */
 
-@media screen and (max-height: 700px) {
+/* @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
   }
-}
+} */
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+/* @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 40%;
   }
-}
+} */
 
 @media screen and (max-width: 500px) {
   .container {
@@ -290,8 +290,9 @@ body {
   }
 
   .six .hat {
-    width: 70px;
-    top: -45px;
+    width: 100px;
+    top: -60px;
+    left: 25%;
   }
 
   .wish-hbd {
@@ -309,13 +310,14 @@ body {
 }
 
 /* Debug stuff */
-/* .controls {
+.controls {
   position: fixed;
   bottom: 0;
   left: 0;
   padding: 1rem;
   background-color: black;
   color: white;
+  z-index: 9;
 }
 
 .controls button {
@@ -323,4 +325,4 @@ body {
   outline: none;
   border: none;
   color: white;
-} */
+}

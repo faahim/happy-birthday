@@ -73,7 +73,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=2.5"
+      "+=3.0"
     )
     .to(
       ".two",
@@ -249,7 +249,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "#663399",
         ease: Expo.easeOut
       },
       0.1,
@@ -295,7 +295,7 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  // Show animation controls
+  // // Show animation controls
   // const controls = document.createElement("div");
   // controls.classList.add("controls");
   // controls.innerHTML = `<button id="pause">⏸︎</button><button id="resume">▶︎</button><button id="replay">⏮︎</button>`
