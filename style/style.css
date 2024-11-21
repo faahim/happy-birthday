@@ -125,9 +125,9 @@ body {
 .six .hat {
   position: absolute;
   width: 30px;
-  top: 50px;
-  left: 40%; /* Default center alignment */
-  transform: translateX(40%); /* Shift the hat to the right */
+  top: 60px;
+  left: 42%; /* Default center alignment */
+  transform: translateX(43%); /* Shift the hat to the right */
 }
 
 .baloons img {
