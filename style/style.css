@@ -122,14 +122,13 @@ body {
   height: auto;
 }
 
-six .hat {
+.six .hat {
   position: absolute;
   width: 30px;
   top: 50px;
   left: 40%; /* Default center alignment */
   transform: translateX(40%); /* Shift the hat to the right */
 }
-
 
 .baloons img {
   display: inline-block;
@@ -308,6 +307,8 @@ six .hat {
   .idea-6 span {
     font-size: 10rem;
   }
+
+
   .wish-hbd {
     font-size: 2.2em;
   }
