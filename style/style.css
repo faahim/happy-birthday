@@ -124,8 +124,8 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 30px;
-  top: 60px;
+  width: 40px;
+  top: 70px;
   left: 42%; /* Default center alignment */
   transform: translateX(43%); /* Shift the hat to the right */
 }
