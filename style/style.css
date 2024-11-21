@@ -308,10 +308,6 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
-    width: 50px;
-    top: -20px;
-    left: calc(32% + 3cm); /* Adjust for narrow screen widths */
   }
 
   .wish-hbd {
