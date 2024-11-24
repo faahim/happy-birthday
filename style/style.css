@@ -122,12 +122,13 @@ body {
   height: auto;
 }
 
+/* Adjusted positioning of the hat: more up and more left */
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
-  /* transform: scale(0.1); */
+  width: 30px;
+  top: 30px; /* Moved up */
+  left: calc(50% - 10px); /* Moved more left */
+  transform: translateX(-50%); /* Keep horizontal centering */
 }
 
 .baloons img {
@@ -232,28 +233,65 @@ body {
   cursor: pointer;
 }
 
+.play-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#play-music-btn {
+  padding: 10px 20px;
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#play-music-btn:hover {
+  background-color: #ff4da6;
+  cursor: pointer;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    top: 30px; /* Keep moved up */
+    left: calc(50% - 10px); /* Keep moved left */
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    width: 40px;
+    top: 20px; /* Adjust more upwards */
+    left: calc(50% - 12px); /* Move left slightly more */
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    width: 50px;
+    top: 15px; /* Further adjusted upwards */
+    left: calc(50% - 15px); /* More left */
   }
 }
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .six .hat {
-    left: 32%;
+    width: 50px;
+    top: 10px; /* More up */
+    left: calc(50% - 15px); /* More left */
   }
 }
 
@@ -282,6 +320,7 @@ body {
   .six .hat {
     width: 50px;
     top: -20px;
+    left: calc(50% - 15px); /* Adjusted for smaller screens */
   }
 
   .wish-hbd {
