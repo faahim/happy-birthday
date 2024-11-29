@@ -1,9 +1,9 @@
 {
   "greeting": "Xin chào",
-  "name": "ABC",
+  "name": "Trần Hoàng Khôi",
   "greetingText": "Hy vọng bạn đã có một ngày vui vẻ",
   "wishText": "Mong mọi điều thuận lợi sẽ đến với bạn :)",
-  "imagePath": "img/zoe.png",
+  "imagePath": "img/zoe.jpg",
   "text1": "Chúc mừng sinh nhật :D",
   "textInChatBox": "Chúc bạn sinh nhật vui vẻ blah blah blah...",
   "sendButtonLabel": "Gửi",
