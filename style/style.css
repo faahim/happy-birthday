@@ -135,8 +135,8 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -50px;
-  left: 45.5%;
+  top: -45px;
+  left: 32%;
   /* transform: scale(0.1); */
 }
 
@@ -243,29 +243,29 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
+/* @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 45%;
+    left: 41%;
   }
-}
+} */
 
-@media screen and (max-height: 800px) {
+/* @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
   }
-}
+} */
 
-@media screen and (max-height: 700px) {
+/* @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
   }
-}
+} */
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
+/* @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 40%;
   }
-}
+} */
 
 @media screen and (max-width: 500px) {
   .container {
@@ -291,7 +291,7 @@ body {
 
   .six .hat {
     width: 70px;
-    top: -45px;
+    top: -65px;
   }
 
   .wish-hbd {
@@ -305,6 +305,13 @@ body {
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .six .hat {
+    left: 41%;
+    top: -75px;
   }
 }
 
