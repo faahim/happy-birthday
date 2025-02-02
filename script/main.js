@@ -295,7 +295,7 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  // Show animation controls
+  // // Show animation controls
   // const controls = document.createElement("div");
   // controls.classList.add("controls");
   // controls.innerHTML = `<button id="pause">⏸︎</button><button id="resume">▶︎</button><button id="replay">⏮︎</button>`
