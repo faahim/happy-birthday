@@ -6,7 +6,11 @@
 
 A simple, fun, and customizable **open-source** project for creating an animated birthday wish page.
 
-Thanks to all of you, it's now one of the most starred project in this category! 🎉
+
+https://github.com/user-attachments/assets/6d0d6958-9c6e-4e77-a478-3a3b94e0a2ca
+
+
+Thanks to all of you, it's now one of the most starred projects in this category! 🎉
 
 ---
 
@@ -16,9 +20,11 @@ Want to create a beautiful, animated digital birthday wish **without any coding*
 
 ➡️ **[Try the eWishWell App Now!](https://ewishwell.com)** ⬅️ **(It's Free!)**
 
-<!-- Embed the App Demo GIF/Video Here -->
-<!-- ![eWishWell App Demo](https://github.com/faahim/happy-birthday/raw/refs/heads/master/ewishwell-create.mp4)
-*(Demo showing the easy customization process in the eWishWell app)* -->
+
+
+https://github.com/user-attachments/assets/375c0034-5404-4389-a742-c69536d54d91
+
+
 
 **Why use the eWishWell App?**
 
